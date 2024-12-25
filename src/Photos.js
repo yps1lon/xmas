@@ -11,11 +11,10 @@ import bm from "./bonemarrow.jpg";
 import notril from "./nostril.jpg";
 import mama from "./mamapizza.jpg";
 
-
 const Photos = () => {
     const [currentPage, setCurrentPage] = useState(0);
     const photos = [
-        `${mama}`, `${silly}`, `${silly2}`,`${monter}`, `${rb}`, `${lingling}`, `${hike}`, `${bm}`, `${tank}`, `${notril}`
+        mama, silly, silly2, monter, rb, lingling, hike, bm, tank, notril
     ];
 
     const nextPage = () => {
@@ -29,8 +28,8 @@ const Photos = () => {
     return (
         <div className="album-container">
             <div className="book">
+                <div className="book-cover"></div>
                 <div className="page" style={{ backgroundImage: `url(${photos[currentPage]})` }}>
-                    {/* Photo content here */}
                 </div>
             </div>
             <div className="controls">

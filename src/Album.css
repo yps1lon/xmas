@@ -2,10 +2,25 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 .book {
     perspective: 1000px;
+    position: relative;
+}
+
+.book-cover {
+    position: absolute;
+    width: 320px;
+    height: 415px;
+    background: linear-gradient(45deg, #bbb, #888);
+    border: 4px solid #000;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: -1;
+    top: -15px;
+    left: -15px;
 }
 
 .page {
@@ -16,6 +31,8 @@
     transition: transform 1s;
     transform-style: preserve-3d;
     position: relative;
+    border-radius: 8px;
+    margin: auto;
 }
 
 .page:hover {
@@ -23,5 +40,7 @@
 }
 
 .controls {
-    margin-top: 20px;
+    margin-top: 60px;
+    position: relative;
+    z-index: 10;
 }

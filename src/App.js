@@ -223,31 +223,31 @@ return (
 
     <div className="program-icons">
         <div className="program-icon" onClick={() => handleIconClick("myComputer")}>
-            <Tooltip title="My Computer">
+            <Tooltip text={"My Computer"}>
                 <Computer style={{ width: '48px', height: '48px' }} />
             </Tooltip>
             <p>My Computer</p>
         </div>
         <div className="program-icon" onClick={() => handleIconClick("internetExplorer")}>
-            <Tooltip title="Internet Explorer">
+            <Tooltip text={"Internet Explorer"}>
                 <Earth style={{ width: '48px', height: '48px' }} />
             </Tooltip>
             <p>Internet Explorer</p>
         </div>
         <div className="program-icon" onClick={() => handleIconClick("notepad")}>
-            <Tooltip title="Notepad">
+            <Tooltip text={"Notepad"}>
                 <Notepad style={{ width: '48px', height: '48px' }} />
             </Tooltip>
             <p>Notepad</p>
         </div>
         <div className="program-icon" onClick={() => handleIconClick("email")}>
-            <Tooltip title="Email">
+            <Tooltip text={"email"}>
                 <Mail style={{ width: '48px', height: '48px' }} />
             </Tooltip>
             <p>Email</p>
         </div>
         <div className="program-icon" onClick={() => handleIconClick("trash")}>
-            <Tooltip title="Trash">
+            <Tooltip text={"Trash"}>
                 <Packager style={{ width: '48px', height: '48px' }} />
             </Tooltip>
             <p>Trash</p>
