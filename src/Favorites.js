@@ -14,6 +14,7 @@ const Favorites = () => {
         'Garfield!',
         'Language Acquisition!',
         'And more but sticky note became too long :p',
+        'Also youre getting this code so you can tweak and kid around with it :p, website is trashy just how u like em :D'
 
 
     ];
